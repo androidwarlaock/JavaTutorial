@@ -1,0 +1,25 @@
+package com.sample.maruti;
+
+import com.sample.vehicle.Vihicle;
+
+public class Maruti extends Vihicle {
+	String color;
+
+	public Maruti() {
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+	public  Maruti(String color) 
+	{
+		this.color = color;
+		
+	}
+	
+	public void wheels() 
+	  {
+		  System.out.println("Has overriden wheels method");
+		  
+	  }
+	
+}

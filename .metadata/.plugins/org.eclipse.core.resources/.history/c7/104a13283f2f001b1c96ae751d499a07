@@ -1,0 +1,14 @@
+package com.test.showroom;
+
+import com.sample.maruti.Maruti;
+
+public class Showroom {
+	
+	public static void main(String args []) 
+	{
+		Maruti objMaruti = new Maruti();
+		objMaruti.doors();
+		objMaruti.wheels();
+	}
+
+}
