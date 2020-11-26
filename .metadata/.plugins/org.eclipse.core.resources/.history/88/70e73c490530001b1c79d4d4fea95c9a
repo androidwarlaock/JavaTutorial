@@ -1,0 +1,18 @@
+package com.sample.StringHandling;
+
+public class StringManupulation {
+	
+	public  void stringMethods()
+	{
+		String S1 = new String("Hello");
+		String s2 = "Hello";
+		String s3 = "Hello";
+		
+		System.out.println(S1 == s2);
+		System.out.println(s2 == s3);
+		System.out.println(S1.equals(s2));
+		System.out.println(s2.intern());
+		
+	}
+
+}
